@@ -1,0 +1,64 @@
+.hero__title {
+  font-size: 2.5rem;
+  color: $vd-magenta;
+  font-weight: $bold;
+}
+
+.hero__p {
+  padding: 0.5rem 0;
+  line-height: 1.5rem;
+}
+
+.hero__title,
+.hero__p,
+.rating {
+  text-align: center;
+}
+
+.rating {
+  background-color: $lg-magenta;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.rated-by {
+  color: $vd-magenta;
+  font-weight: $bold;
+  padding: 0.2rem;
+}
+
+.card {
+  background-color: $vd-magenta;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+.card + .card {
+  margin-top: 1rem;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 40px;
+}
+.profile__name,
+.profile__buyer {
+  font-weight: $semi-bold;
+  padding: 0.2rem 0;
+}
+.profile__buyer {
+  color: $dg-magenta;
+}
+.profile__testimonial {
+  line-height: 1.5rem;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile__testimonial {
+  padding: 1.5rem 0 0.5rem;
+}
+.profile__name,
+.profile__testimonial {
+  color: $white;
+}

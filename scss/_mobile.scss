@@ -1,0 +1,38 @@
+.grid__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.grid {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cards {
+  margin-top: 2rem;
+}
+.card:nth-child(3) {
+  margin-top: 2rem;
+}
+.hero,
+.ratings,
+.cards {
+  grid-column: span 3;
+}
+
+.hero__title {
+  padding: 2rem 1rem 1rem;
+}
+
+.hero__p {
+  margin: 0.5rem 0 2rem;
+}
