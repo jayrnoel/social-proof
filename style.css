@@ -135,7 +135,7 @@ body {
   .grid {
     grid-template-columns: repeat(6, 1fr);
     gap: 2rem;
-    max-width: 1200px;
+    max-width: 1150px;
   }
   .cards {
     grid-column: span 6;
